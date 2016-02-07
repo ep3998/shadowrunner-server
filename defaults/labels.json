@@ -1,0 +1,107 @@
+[
+  {
+    "name":"Body (BOD)",
+    "api_name":"body__c",
+    "api_location":"label",
+    "definition":"Physical health, resiliency - affects damage taken",
+    "usage":"Health, damage"
+  },
+  {
+    "name":"Agility (AGI)",
+    "api_name":"agility__c",
+    "api_location":"label",
+    "definition":"Hand-eye coordination, flexibility, balance.",
+    "usage":"Hit accuracy, sneaking"
+  },
+  {
+    "name":"Reaction (REA)",
+    "api_name":"reaction__c",
+    "api_location":"label",
+    "definition":"Reflexes, awareness, ability to respond to events.",
+    "usage":"Initiative, dodging"
+  },
+  {
+    "name":"Strength (STR)",
+    "api_name":"strength__c",
+    "api_location":"label",
+    "definition":"Indicator of damage and general strength.",
+    "usage":"Damage, carry capacity, climbing"
+  },
+  {
+    "name":"Willpower (WIL)",
+    "api_name":"willpower__c",
+    "api_location":"label",
+    "definition":"Desire to push through adveristy and weariness.",
+    "usage":"Spellcasting, mental duress tests"
+  },
+  {
+    "name":"Logic (LOG)",
+    "api_name":"logic__c",
+    "api_location":"label",
+    "definition":"Calculating power of a rational mind, such as when repairing or solving puzzles.",
+    "usage":"Repair, healing, decker attacks"
+  },
+  {
+    "name":"Intuition (INT)",
+    "api_name":"intuition__c",
+    "api_location":"label",
+    "definition":"Gut instict that tells you what to do before logic catches up.",
+    "usage": "Perception, search"
+  },
+  {
+    "name":"Charisma (CHA)",
+    "api_name":"charisma__c",
+    "api_location":"label",
+    "definition":"Personality and persuasiveness of your character - your charm, basically.",
+    "usage":"Persuasion, bluff, intimidation"
+  },
+  {
+    "name":"Essence (ESS)",
+    "api_name":"essence__c",
+    "api_location":"label",
+    "definition":"Your metahumanity - basically, how human you are physically and/or mentally (your soul)",
+    "usage":"Magic, resonance, social, soul"
+  },
+  {
+    "name":"Edge (EDG)",
+    "api_name":"edge__c",
+    "api_location":"label",
+    "definition":"Luck in the game - can push a check over the edge when you need it.",
+    "usage":"Tests"
+  },
+  {
+    "name":"Magic (MAG)",
+    "api_name":"magic__c",
+    "api_location":"label",
+    "definition":"Ability to cast spells or use magic in any way",
+    "usage":"Magic"
+  },
+  {
+    "name":"Resonance (RES)",
+    "api_name":"resonance__c",
+    "api_location":"label",
+    "definition":"Similar to magic for mages, this is the Technomancers ability to interface with the Matrix with just their mind.",
+    "usage":"Matrix"
+  },
+  {
+    "name":"Initiative",
+    "api_name":"initiative__c",
+    "api_location":"label",
+    "definition":"Reaction + Intuition",
+    "usage":"Turn order"
+  },
+  {
+    "name":"Physical Condition",
+    "api_name":"condition_physical__c",
+    "api_location":"label",
+    "definition":"Body / 2 + 8",
+    "usage":"Physical damage"
+  },
+  {
+    "name":"Stun Condition",
+    "api_name":"condition_stun__c",
+    "api_location":"label",
+    "definition":"Willpower / 2 + 8",
+    "usage":"Stun damage"
+  }
+]
