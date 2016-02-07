@@ -28,8 +28,17 @@ var CharacterSchema = new mongoose.Schema({
             initiative: Number
         }
     },
-    condition_physical: Number,
-    condition_stun: Number,
+    condition: {
+        physical: {
+            current: Number,
+            max: Number
+        },
+        "stun": {
+            current: Number,
+            max: Number
+        },
+        "effects": [String]
+    },
     created_date: { type: Date, default: Date.now },
     last_modified_date: { type: Date, default: Date.now }
 });

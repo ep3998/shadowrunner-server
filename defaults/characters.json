@@ -24,7 +24,16 @@
         "initiative": 1
       }
     },
-    "condition_physical": 10,
-    "condition_stun": 9
+    "condition": {
+      "physical": {
+        "current": 8,
+        "max": 10
+      },
+      "stun": {
+        "current": 4,
+        "max": 5
+      },
+      "effects": []
+    }
   }
 ]
