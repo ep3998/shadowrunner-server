@@ -1,0 +1,53 @@
+[{
+  "name": "Face",
+  "description": "The charismatice front-runner of the group, usually the leader. Works with Mr. Johnson the most. The bard and the salesman.",
+  "attributes": [
+    "charisma",
+    "willpower"
+  ]
+},
+  {
+    "name": "Spellcaster",
+    "description": "The mage that attacks the darkness with magic missile. Logical and ordered magician compared to Shamans who are more instictual. You need Magic to succeed.",
+    "attributes": [
+      "magic",
+      "charisma",
+      "intuition",
+      "willpower"
+    ]
+  },
+  {
+    "name": "Decker",
+    "description": "The hacker of the group - able to enter The Matrix at will via their cyberdeck.",
+    "attributes": [
+      "logic",
+      "intuition",
+      "willpower"
+    ]
+  },
+  {
+    "name": "Technomancer",
+    "description": "The other hacker of the group - able to enter The Matrix with just their minds - no deck required. Unknown how that works. Must have Resonance.",
+    "attributes": [
+      "resonance",
+      "logic",
+      "intuition",
+      "willpower"
+    ]
+  },
+  {
+    "name": "Rigger",
+    "description": "The driver - able to control cars, drones, and aircraft at will.",
+    "attributes": [
+      "reaction"
+    ]
+  },
+  {
+    "name": "Street Samurai",
+    "description": "The tank and the killer - he knows 15 ways to hurt an opponent and an additional 8 ways to really hurt an opponent.",
+    "attributes": [
+      "body",
+      "strength",
+      "agility"
+    ]
+  }]

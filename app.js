@@ -6,7 +6,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var characters = require('./routes/characters');
+var npcs = require('./routes/npcs');
 var definitions = require('./routes/definitions');
+var roles = require('./routes/roles');
+var priorities = require('./routes/priorities');
 
 //Setup mongoose
 var mongoose = require('mongoose');
@@ -44,7 +47,10 @@ app.use(function(req, res, next){
 
 //Route Handling
 app.use('/characters', characters);
+app.use('/npcs', npcs);
 app.use('/definitions', definitions);
+app.use('/roles', roles);
+app.use('/priorities', priorities);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

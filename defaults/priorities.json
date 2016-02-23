@@ -1,0 +1,216 @@
+[{
+  "priority": "A",
+  "metatypes": [
+    {
+      "metatype": "human",
+      "specials": 9
+    },
+    {
+      "metatype": "elf",
+      "specials": 8
+    },
+    {
+      "metatype": "dwarf",
+      "specials": 7
+    },
+    {
+      "metatype": "ork",
+      "specials": 7
+    },
+    {
+      "metatype": "troll",
+      "special": 5
+    }
+  ],
+  "attributes": 24,
+  "magics": [
+    {
+      "types": ["magician", "mystic adept"],
+      "class": "magic",
+      "attribute": 6,
+      "skills": [
+        {"rating": 5, "type": "magic"},
+        {"rating": 5, "type": "magic"}
+      ],
+      "spells": 10
+    },
+    {
+      "types": ["technomancer"],
+      "class": "resonance",
+      "attribute": 6,
+      "skills": [
+        {"rating": 5, "type": "resonance"},
+        {"rating": 5, "type": "resonance"}
+      ],
+      "forms": 5
+    }
+  ],
+  "skills": 46,
+  "skillGroupMax": 10,
+  "resource": 450000
+},
+  {
+    "priority": "B",
+    "metatypes": [
+      {
+        "metatype": "human",
+        "specials": 7
+      },
+      {
+        "metatype": "elf",
+        "specials": 6
+      },
+      {
+        "metatype": "dwarf",
+        "specials": 4
+      },
+      {
+        "metatype": "ork",
+        "specials": 4
+      },
+      {
+        "metatype": "troll",
+        "special": 0
+      }
+    ],
+    "attributes": 20,
+    "magics": [
+      {
+        "types": ["magician", "mystic adept"],
+        "class": "magic",
+        "attribute": 4,
+        "skills": [
+          {"rating": 4, "type": "magic"},
+          {"rating": 4, "type": "magic"}
+        ],
+        "spells": 7
+      },
+      {
+        "types": ["technomancer"],
+        "class": "resonance",
+        "attribute": 4,
+        "skills": [
+          {"rating": 4, "type": "resonance"},
+          {"rating": 4, "type": "resonance"}
+        ],
+        "forms": 2
+      },
+      {
+        "types": ["adept"],
+        "class": "magic",
+        "attribute": 6,
+        "skills": [
+          {"rating": 4, "type": "active"}
+        ]
+      },
+      {
+        "types": ["aspected magician"],
+        "class": "magic",
+        "attribute": 5,
+        "skills": [
+          {"rating": 4, "type": "magic group"}
+        ]
+      }
+    ],
+    "skills": 36,
+    "skillGroupMax": 5,
+    "resource": 275000
+  },
+  {
+    "priority": "C",
+    "metatypes": [
+      {
+        "metatype": "human",
+        "specials": 5
+      },
+      {
+        "metatype": "elf",
+        "specials": 3
+      },
+      {
+        "metatype": "dwarf",
+        "specials": 1
+      },
+      {
+        "metatype": "ork",
+        "specials": 0
+      }
+    ],
+    "attributes": 16,
+    "magics": [
+      {
+        "types": ["magician", "mystic adept"],
+        "class": "magic",
+        "attribute": 3,
+        "spells": 5
+      },
+      {
+        "types": ["technomancer"],
+        "class": "resonance",
+        "attribute": 3,
+        "forms": 1
+      },
+      {
+        "types": ["adept"],
+        "class": "magic",
+        "attribute": 4,
+        "skills": [
+          {"rating": 2, "type": "active"}
+        ]
+      },
+      {
+        "types": ["aspected magician"],
+        "class": "magic",
+        "attribute": 3,
+        "skills": [
+          {"rating": 2, "type": "magic group"}
+        ]
+      }
+    ],
+    "skills": 28,
+    "skillGroupMax": 2,
+    "resource": 140000
+  },
+  {
+    "priority": "D",
+    "metatypes": [
+      {
+        "metatype": "human",
+        "specials": 3
+      },
+      {
+        "metatype": "elf",
+        "specials": 0
+      }
+    ],
+    "attributes": 14,
+    "magics": [
+      {
+        "types": ["adept"],
+        "class": "magic",
+        "attribute": 2
+      },
+      {
+        "types": ["aspected magician"],
+        "class": "magic",
+        "attribute": 2
+      }
+    ],
+    "skills": 22,
+    "skillGroupMax": 0,
+    "resource": 50000
+  },
+  {
+    "priority": "E",
+    "metatypes": [
+      {
+        "metatype": "human",
+        "specials": 1
+      }
+    ],
+    "attributes": 12,
+    "magics": [],
+    "skills": 18,
+    "skillGroupMax": 0,
+    "resource": 6000
+  }]
